@@ -1,0 +1,24 @@
+.container{
+    background-color: #ffcab0;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    /* //!hacer flexible el componente */
+    display: flex;
+    flex-direction: column;
+}
+.closeButton{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.5s;
+    margin: 5px;
+}
+.closeButton:hover{
+    box-shadow: 10px 12px 27px -2px rgba(0,0,0,0.55);
+}
